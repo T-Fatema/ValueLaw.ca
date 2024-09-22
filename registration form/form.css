@@ -1,0 +1,429 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+body{
+	background: rgba(0,0,0,.1);
+	height: 100vh;
+	width: 100%;
+	font-family: "Poppins", sans-serif;
+}
+
+.container {
+	padding-right: 0px !important;
+	padding-left: 0px !important;
+}
+
+.wrapper {
+	width: 100%;
+	padding-left: 5% !important;
+	padding-right: 5% !important;
+	margin-right: auto;
+	margin-left: auto;
+	box-shadow: 0rem 0rem .5rem rgba(0,0,0,.1);
+	height: 100%;
+	padding-bottom: 50px;
+}
+
+/*-----extention-----*/
+
+.box{
+	position: relative;
+}
+
+.arrow{
+	height: 30px;
+	width: 250px;
+	background: #1B5066;
+	position: relative;
+	clip-path: polygon(95% 0%, 100% 50%, 95% 100%, 0% 100%, 5% 50%, 0% 0%);
+}
+
+
+.arrow h4 {
+	text-transform: uppercase;
+	position: absolute;
+	left: 30%;
+	top: 10%;
+	font-size: 20px;
+	font-weight: 600;
+	color: #fff;
+}
+
+.arrow-text{
+	position: absolute;
+	height: 40px;
+	width: 40px;
+	line-height: 30px;
+	border-radius: 50%;
+	color: #254266;
+	left: 55%;
+	bottom: -17%;
+	background: #fff;
+	border: 5px solid #254266;
+	font-size: 20px;
+	font-weight: 800;
+	text-align: center;
+}
+
+.m-left{
+	margin-left: 25%;
+}
+
+.arrow2{
+	height: 30px;
+	width: 210px;
+	background: #005F60;
+	position: relative;
+	clip-path: polygon(95% 0%, 100% 50%, 95% 100%, 0% 100%, 5% 50%, 0% 0%);
+}
+
+.red {
+	margin-bottom: 0 !important; 
+}
+
+.arrow2 h4 {
+	text-transform: uppercase;
+	position: absolute;
+	left: 25%;
+	top: 15%;
+	font-size: 20px;
+	font-weight: 600;
+	color: #fff;
+}
+
+.arrow-text2{
+	position: absolute;
+	height: 40px;
+	width: 40px;
+	line-height: 30px;
+	border-radius: 50%;
+	color: #005F60;
+	left: 51%;
+	top: -5px;
+	background: #fff;
+	border: 5px solid #005F60;
+	font-size: 20px;
+	font-weight: 800;
+	text-align: center;
+}
+
+.m-left{
+	margin-left: 25%;
+}
+
+/*----------extention----*/
+.title{
+	position: relative;
+	width: 100%;
+	padding: 2%;
+	margin-bottom: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.title img{
+	width: 20%;
+}
+
+.title:after{
+	content: '';
+	position: absolute;
+	height: 4px;
+	width: 100%;
+	top: 90%;
+	left: 0;
+	right: 0;
+	background: #00C9D7;
+}
+
+.title h3{
+	margin: 30px auto;
+	font-family: 'Poppins', sans-serif;
+	font-size: 35px;
+	font-weight: 300;
+}
+
+.title h3 span{
+	font-weight: 700;
+}
+
+
+.form-select{
+	border-color: #666;
+	border-radius: 5px;
+}
+
+/*--content------*/
+
+.content{
+	font-family: 'Roboto', sans-serif;
+}
+
+.content .text{
+	padding-left: 33%;
+	font-size: 20px;
+	font-weight: 900;
+}
+
+.para{
+	margin-left: 31%;
+	font-size: 14px;
+}
+
+.para p{
+	margin-bottom: 5px;
+}
+
+.para span a{
+	color: #00C9D7;
+	text-decoration: underline;
+}
+
+.btn-secondary{
+	background: #fff !important;
+	border-radius: 15px;
+	color: #000 !important;
+}
+
+.form-control{
+	border-radius: 10px;
+}
+
+::placeholder{
+	font-size: 14px;
+	color: #C7C7C7 !important;
+}
+
+.details{
+	max-width: 80%;
+	text-align: justify;
+}
+
+.discription{
+	font-family: 'Roboto', sans-serif;
+	font-size: 17px;
+	margin-left: -14px;
+}
+
+.inline-text{
+	font-size: 20px;
+	margin-left: -20px;
+	text-decoration: none;
+	color: #000;
+	font-weight: 600;
+	font-family: 'Roboto';
+}
+
+label.form-check-label {
+	font-size: 18px;
+	font-family: 'Roboto', sans-serif;
+	color: #666;
+}
+
+.verified{
+	text-align:center;
+}
+
+.verified a{
+	margin-left: 35px;
+	text-decoration: none;
+	color: #000;
+	cursor: auto;
+}
+
+input#gridCheck {
+	height: 18px;
+	width: 18px;
+}
+
+.form-check-input {
+	margin-top: .3rem;
+	margin-left: -1.5rem;
+}
+
+.check{
+	margin-left: 22%;
+}
+.check p{
+	margin-left: -5px;
+}
+
+.check label.form-check-label {
+	color: #1BCED8;
+}
+
+.check p{
+	font-size: 16px;
+	font-family: 'Roboto';
+	font-weight: 400;
+}
+
+.button{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-left: 25%;
+}
+
+.button .btn1{
+	background: #FF6D76;
+	color: #fff;
+	padding: 8px 40px;
+	font-size: 17px;
+}
+
+.button .btn2{
+	background: #00C9D7;
+	color: #fff;
+	padding: 10px 40px;
+	font-size: 17px;
+}
+
+/*--------tooltip-------*/
+
+.tool{
+	position: relative;
+	transition: all 0.3s ease;
+}
+
+.tool .tooltip-text{
+	visibility: hidden;
+	width: 100%;
+	height: 35px;
+	background: #6D6E6A;
+	color: #fff;
+	padding: 10px;
+	border-radius: 5px;
+	font-size: 10px;
+	position: absolute;
+	left: 0;
+	top: -100%;
+	transition: all 0.3s ease;
+	z-index: 1;
+}
+
+.tool:hover .tooltip-text{
+	visibility: visible;
+}
+
+
+@media(max-width: 1199px){
+	.tool .tooltip-text{
+		padding: 10px;
+		font-size: 8px;
+		left: 0%;
+		width: 95%;
+	}
+	.verified a{
+		font-size: 15px;
+	}
+	.verified .form-check-label{
+		font-size: 14px;
+	}
+	.check p{
+		font-size: 14px;
+	}
+}
+
+
+
+@media(max-width: 991px){
+	.content .text{
+		padding-left: 25%;;
+	}
+	.para{
+		margin-left: 25%;
+		font-size: 12px;
+	}
+
+	.arrow{
+		margin-left: -15%;
+		height: 30px;
+		width: 200px;
+	}
+	.arrow2{
+		margin-left: -15%;;
+		height: 30px;
+		width: 170px;
+	}
+
+	.arrow-text{
+		left: 42%;
+		bottom: -17%;
+	}
+
+	.arrow-text2{
+		left: 40%;
+		top: -5px;
+	}
+	.button{
+		margin-left: 3%;
+	}
+	.check p {
+		font-size: 14px;
+	}
+	.desh{
+		margin-left: -4%;
+	}
+	.check p{
+		font-size: 12px;
+	}
+	.tool .tooltip-text{
+		font-size: 12px;
+	}
+}
+
+@media(max-width: 767px){
+	.arrow{
+		padding-left: -15%;
+		height: 30px;
+		width: 180px;
+	}
+	.arrow h4 {
+		top: 15%;
+		font-size: 15px;
+	}
+
+	.arrow2{
+		height: 30px;
+		width: 150px;
+	}
+
+	.arrow2 h4 {
+		left: 25%;
+		top: 18%;
+		font-size: 15px;
+	}
+	.responsive{
+		margin-left: 0;
+	}
+}
+
+@media(max-width: 576px){
+	.content .text{
+		padding-left: 20%;;
+	}
+	.para{
+		margin-left: 20%;
+	}
+
+	.responsive{
+		margin-left: -32px !important;
+	}
+	.responsive1{
+		position: absolute;
+		display: flex;
+		left: 13%;
+	}
+
+	.subscribe{
+		margin-top: 20px !important;
+	}
+
+	.form-check-input {
+		margin-top: 1.5rem;
+		margin-left: -1.5rem;
+	}
+}

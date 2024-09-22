@@ -1,0 +1,184 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+body{
+	background: rgba(0,0,0,.1);
+	height: 100vh;
+	width: 100%;
+	font-family: "Poppins", sans-serif;
+}
+
+.container {
+	padding-right: 5% !important;
+	padding-left: 5% !important;
+}
+
+.wrapper {
+	width: 100%;
+	padding-left: 5% !important;
+	padding-right: 5% !important;
+	margin-right: auto;
+	margin-left: auto;
+	box-shadow: 0rem 0rem .5rem rgba(0,0,0,.1);
+	height:100%;
+	padding-bottom: 30%;
+}
+.title{
+	position: relative;
+	width: 100%;
+	padding: 6%;
+}
+
+.title img{
+	width: 25%;
+	float: left;
+	margin-top: -3%;
+	margin-left: -7%;
+}
+
+.title:after{
+	content: '';
+	position: absolute;
+	height: 4px;
+	width: 100%;
+	top: 92%;
+	left: 0;
+	right: 0;
+	background: #00C9D7;
+}
+
+.title h4{
+	float: right;
+	font-weight: 500;
+	font-size: 28px;
+	font-family: 'Roboto';
+	margin-right: -7%;
+}
+
+.email p{
+	font-size: 14px;
+	font-weight: 400;
+}
+
+.details span{
+	font-size: 15px;
+	font-weight: 800;
+}
+
+.details h6{
+	font-size: 15px;
+	font-weight: 800;
+}
+
+.details a{
+	text-decoration: underline;
+}
+
+.visit{
+	position: relative;
+}
+
+.visit a{
+	position: absolute;
+	top: 90%;
+	text-decoration: underline;
+	font-size: 15px;
+}
+
+.text{
+	font-size: 13px;
+	color: #000;
+}
+
+.note{
+	font-size: 13px;
+	position: relative;
+}
+
+.line{
+	position: relative;
+}
+
+.line::after{
+	content: '';
+	position: absolute;
+	height: 2px;
+	width: 100%;
+	top: 165%;
+	left: 0;
+	background: #C9C9C9;
+}
+
+@media(max-width: 1199px){
+	.line::after{
+		top: 150%;
+	}
+}
+
+@media(max-width: 991px){
+	.title h4{
+		font-size: 22px;
+	}
+	.title{
+		padding: 8%;
+	}
+
+	.line::after{
+		top: 140%;
+	}
+}
+
+@media(max-width: 767px){
+	.title h4{
+		font-size: 17px;
+	}
+	.email p,
+	.text{
+		font-size: 11px;
+	}
+	.visit a,
+	.details span,
+	.details h6{
+		font-size: 12px;
+	}
+
+	.note{
+		font-size: 10px;
+	}
+}
+
+@media(max-width: 493px){
+	.note{
+		font-size: 9px;
+	}
+
+	.line::after{
+		top: 140%;
+	}
+
+	.title h4{
+		font-size: 15px;
+	}
+}
+
+@media(max-width: 439px){
+	.note{
+		font-size: 8px;
+	}
+	.line::after{
+		top: 140%;
+	}
+	.title h4{
+		font-size: 13px;
+	}
+	.email p,
+	.text{
+		font-size: 9px;
+	}
+	.visit a,
+	.details span,
+	.details h6{
+		font-size: 10px;
+	}
+}
